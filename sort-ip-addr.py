@@ -11,6 +11,9 @@ def read_csv(fname):
   p_len = int(24)
 
   with open(fname, mode='r') as f:
+  # open prefix list file to read
+
+    # read the csv contents
     cr = csv.reader(f)
 
     # initialise a new dictionary to store type and prefixes
